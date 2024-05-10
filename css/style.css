@@ -112,6 +112,10 @@ h1 {
     gap: 20px;
 }
 
+.container h1 {
+    text-align: center;
+}
+
 .containerEstrela p {
     margin-top: 0;
 }
@@ -136,6 +140,67 @@ h1 {
 .fundo {
     background-color: #06C1D6;
     height: 403px;
+}
+
+.fundoLogin {
+    background-color: #06C1D6;
+    height: 402px;
+    padding-top: 50px;
+    /* Adiciona espaço acima do container */
+    padding-bottom: 50px;
+    /* Adiciona espaço abaixo do container */
+    margin-top: -50px;
+    /* Move o fundo para cima para cobrir a lacuna */
+}
+
+.fundoLogin>.container {
+    background-color: #d9d9d9;
+    height: auto;
+    /* Alterando para altura automática */
+    width: 1147px;
+    border-radius: 31px;
+    padding: 80px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    /* Adicionando margem inferior para evitar sobreposição */
+}
+
+.links-right {
+    text-align: right;
+    margin-top: 20px;
+    /* Adicione espaço acima dos links */
+}
+
+.signup-link,
+.forgot-password-link {
+    background-color: #06C1D6;
+    color: white;
+    /* Cor de fundo para os links */
+    padding: 5px 10px;
+    /* Espaçamento interno dos links */
+    border-radius: 5px;
+    /* Borda arredondada */
+    text-decoration: none;
+}
+
+.signup-link:hover,
+.forgot-password-link:hover {
+    background-color: white;
+    /* Cor de fundo quando o mouse passar por cima */
+    color: #06C1D6;
+}
+
+b {
+    background-color: #06C1D6;
+    color: white;
+    padding: 4px;
+}
+
+.fundoLogin>.text-center {
+    color: white;
+    font-size: 35px;
+    padding-top: 38px;
+    border: 1px;
 }
 
 .fundo>.container {
